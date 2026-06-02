@@ -1,7 +1,6 @@
 {
-  "$schema": "https://schema.zeabur.app/template.json",
   "build": {
-    "type": "DOCKERFILE",
-    "dockerfile": "Dockerfile"
+    "builder": "node",
+    "installCommand": "npm install"
   }
 }
